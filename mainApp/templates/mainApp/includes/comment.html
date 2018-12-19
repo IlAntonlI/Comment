@@ -1,0 +1,8 @@
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.text.label_tag }}
+    {{ form.text }}
+    {{ form.user_name.label_tag }}
+    {{ form.user_name }}
+    <input class="btn-add" type="submit" value="Добавить">
+</form>

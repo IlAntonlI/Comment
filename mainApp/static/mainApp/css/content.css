@@ -1,0 +1,48 @@
+.row {
+    margin: 100px 0 0 700px;
+}
+
+.comment {
+    width: 450px;
+    height: 100px;
+    border: 3px solid #025c8f;
+    border-radius: 5px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 10px;
+}
+
+p {
+    line-height: 1em;
+    margin-top: 0.1em;
+    margin-bottom: 0.5em;
+}
+
+
+.btn-vote {
+    margin: 20px 5px 5px 0;
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    line-height: 0;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #f66d14;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #886310;
+    background: linear-gradient(#fb9115, #f48219 48%, #ea7114 52%, #f0620a);
+}
+
+.btn-vote:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, .05) inset;
+}

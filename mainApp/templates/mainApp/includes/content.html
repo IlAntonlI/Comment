@@ -1,0 +1,10 @@
+ <div class="row">
+    {% csrf_token %}
+    {% for comment in comments %}
+        <div class="comment">
+            <p>{{ comment.user_name }}</p>
+            <p>{{ comment.text }}</p>
+            <a href="{% url 'comment:vote' comment.id %}"><button class="btn-vote">Голосовать:{{ comment.vote }}</button></a>
+        </div>
+    {% endfor %}
+</div>
